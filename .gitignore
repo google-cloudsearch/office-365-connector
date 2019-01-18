@@ -1,0 +1,11 @@
+bin/
+target/
+lib/client-library/
+/*.json
+/*.properties
+*~
+
+# Eclipse
+.project
+.classpath
+.settings/

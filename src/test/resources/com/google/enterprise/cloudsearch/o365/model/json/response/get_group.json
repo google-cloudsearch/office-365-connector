@@ -1,0 +1,25 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#groups/$entity",
+  "id": "5433b4fc-bd1c-4c31-8ebd-77d1e294a217",
+  "deletedDateTime": null,
+  "classification": null,
+  "createdDateTime": "2017-07-24T20:56:17Z",
+  "description": "testGroup2",
+  "displayName": "testGroup2",
+  "groupTypes": [
+    "Unified"
+  ],
+  "mail": "testGroup2@test.onmicrosoft.com",
+  "mailEnabled": true,
+  "mailNickname": "testGroup2",
+  "onPremisesLastSyncDateTime": null,
+  "onPremisesProvisioningErrors": [],
+  "onPremisesSecurityIdentifier": null,
+  "onPremisesSyncEnabled": null,
+  "proxyAddresses": [
+    "SMTP:testGroup2@test.onmicrosoft.com"
+  ],
+  "renewedDateTime": "2017-07-24T20:56:17Z",
+  "securityEnabled": false,
+  "visibility": "Private"
+}

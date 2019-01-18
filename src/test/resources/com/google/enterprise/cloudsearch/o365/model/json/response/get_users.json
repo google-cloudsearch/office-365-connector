@@ -1,0 +1,124 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users",
+  "value": [
+    {
+      "id": "87726fae-5a66-4c14-96f0-27aad653970f",
+      "businessPhones": [],
+      "displayName": "User1",
+      "givenName": "User1",
+      "jobTitle": null,
+      "mail": "user1@test.onmicrosoft.com",
+      "mobilePhone": null,
+      "officeLocation": null,
+      "preferredLanguage": null,
+      "surname": "test",
+      "userPrincipalName": "user1@test.onmicrosoft.com"
+    },
+    {
+      "id": "4860b8c0-a107-400a-aca2-c58549efd044",
+      "businessPhones": [],
+      "displayName": "User2",
+      "givenName": "User2",
+      "jobTitle": null,
+      "mail": "user2@test.onmicrosoft.com",
+      "mobilePhone": null,
+      "officeLocation": null,
+      "preferredLanguage": null,
+      "surname": "test",
+      "userPrincipalName": "user2@test.onmicrosoft.com"
+    },
+    {
+      "id": "ebb6c203-c2d1-4a44-a8d3-97521fccef2f",
+      "businessPhones": [],
+      "displayName": "User3",
+      "givenName": "User3",
+      "jobTitle": null,
+      "mail": "user3@test.onmicrosoft.com",
+      "mobilePhone": null,
+      "officeLocation": null,
+      "preferredLanguage": "en-US",
+      "surname": "test",
+      "userPrincipalName": "user3@test.onmicrosoft.com"
+    },
+    {
+      "id": "7f6b231b-5de3-4330-b538-22679a5ebb92",
+      "businessPhones": [],
+      "displayName": "User4",
+      "givenName": "test",
+      "jobTitle": null,
+      "mail": "user4@test.onmicrosoft.com",
+      "mobilePhone": null,
+      "officeLocation": null,
+      "preferredLanguage": "en-US",
+      "surname": "test",
+      "userPrincipalName": "user4@test.onmicrosoft.com"
+    },
+    {
+      "id": "4b834639-74da-413d-9018-e36802d0c3ee",
+      "businessPhones": [],
+      "displayName": "User5",
+      "givenName": "User5",
+      "jobTitle": null,
+      "mail": "user5@test.onmicrosoft.com",
+      "mobilePhone": null,
+      "officeLocation": null,
+      "preferredLanguage": null,
+      "surname": "test",
+      "userPrincipalName": "user5@test.onmicrosoft.com"
+    },
+    {
+      "id": "4033fd98-6298-47c0-b335-9c7fc1cc1911",
+      "businessPhones": [],
+      "displayName": "User6",
+      "givenName": "User6",
+      "jobTitle": null,
+      "mail": "user6@test.onmicrosoft.com",
+      "mobilePhone": null,
+      "officeLocation": null,
+      "preferredLanguage": "en-US",
+      "surname": "test",
+      "userPrincipalName": "user6@test.onmicrosoft.com"
+    },
+    {
+      "id": "86629690-2cd6-4bf9-8062-ae47d1f8d519",
+      "businessPhones": [],
+      "displayName": "User7",
+      "givenName": "User7",
+      "jobTitle": null,
+      "mail": "user7@test.onmicrosoft.com",
+      "mobilePhone": null,
+      "officeLocation": null,
+      "preferredLanguage": "en-US",
+      "surname": "test",
+      "userPrincipalName": "user7@test.onmicrosoft.com"
+    },
+    {
+      "id": "dc0524b2-ff93-4482-973f-81d2a7e67dd5",
+      "businessPhones": [
+        "4085949363"
+      ],
+      "displayName": "User8",
+      "givenName": "User8",
+      "jobTitle": null,
+      "mail": "user8@test.onmicrosoft.com",
+      "mobilePhone": null,
+      "officeLocation": null,
+      "preferredLanguage": "en-US",
+      "surname": "test",
+      "userPrincipalName": "user8@test.onmicrosoft.com"
+    },
+    {
+      "id": "d0746ede-a553-4259-9b36-92b281804be1",
+      "businessPhones": [],
+      "displayName": "User9",
+      "givenName": "User9",
+      "jobTitle": null,
+      "mail": "user9@test.onmicrosoft.com",
+      "mobilePhone": null,
+      "officeLocation": null,
+      "preferredLanguage": null,
+      "surname": "test",
+      "userPrincipalName": "user9@test.onmicrosoft.com"
+    }
+  ]
+}

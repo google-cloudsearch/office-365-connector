@@ -1,0 +1,101 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#groups",
+  "value": [
+    {
+      "id": "29918f07-87aa-4102-8368-e587bcd81c41",
+      "deletedDateTime": null,
+      "classification": null,
+      "createdDateTime": "2017-07-20T18:30:02Z",
+      "description": "test Connectors",
+      "displayName": "test Connectors",
+      "groupTypes": [
+        "Unified"
+      ],
+      "mail": "tests@test.onmicrosoft.com",
+      "mailEnabled": true,
+      "mailNickname": "tests",
+      "onPremisesLastSyncDateTime": null,
+      "onPremisesProvisioningErrors": [],
+      "onPremisesSecurityIdentifier": null,
+      "onPremisesSyncEnabled": null,
+      "proxyAddresses": [
+        "SMTP:tests@test.onmicrosoft.com"
+      ],
+      "renewedDateTime": "2017-07-20T18:30:02Z",
+      "securityEnabled": false,
+      "visibility": "Private"
+    },
+    {
+      "id": "36cb07f4-946a-43ec-a0bc-48327c1ef522",
+      "deletedDateTime": null,
+      "classification": null,
+      "createdDateTime": "2017-07-26T23:04:03Z",
+      "description": "Drive Connector",
+      "displayName": "Drive Connector",
+      "groupTypes": [
+        "Unified"
+      ],
+      "mail": "DriveConnector@test.onmicrosoft.com",
+      "mailEnabled": true,
+      "mailNickname": "DriveConnector",
+      "onPremisesLastSyncDateTime": null,
+      "onPremisesProvisioningErrors": [],
+      "onPremisesSecurityIdentifier": null,
+      "onPremisesSyncEnabled": null,
+      "proxyAddresses": [
+        "SMTP:DriveConnector@test.onmicrosoft.com"
+      ],
+      "renewedDateTime": "2017-07-26T23:04:03Z",
+      "securityEnabled": false,
+      "visibility": "Private"
+    },
+    {
+      "id": "5433b4fc-bd1c-4c31-8ebd-77d1e294a217",
+      "deletedDateTime": null,
+      "classification": null,
+      "createdDateTime": "2017-07-24T20:56:17Z",
+      "description": "testGroup2",
+      "displayName": "testGroup2",
+      "groupTypes": [
+        "Unified"
+      ],
+      "mail": "testGroup2@test.onmicrosoft.com",
+      "mailEnabled": true,
+      "mailNickname": "testGroup2",
+      "onPremisesLastSyncDateTime": null,
+      "onPremisesProvisioningErrors": [],
+      "onPremisesSecurityIdentifier": null,
+      "onPremisesSyncEnabled": null,
+      "proxyAddresses": [
+        "SMTP:testGroup2@test.onmicrosoft.com"
+      ],
+      "renewedDateTime": "2017-07-24T20:56:17Z",
+      "securityEnabled": false,
+      "visibility": "Private"
+    },
+    {
+      "id": "a98a15d7-2933-4775-860c-b4b454dd0733",
+      "deletedDateTime": null,
+      "classification": null,
+      "createdDateTime": "2017-07-24T19:17:17Z",
+      "description": "testGroup1",
+      "displayName": "testGroup1",
+      "groupTypes": [
+        "Unified"
+      ],
+      "mail": "testGroup1@test.onmicrosoft.com",
+      "mailEnabled": true,
+      "mailNickname": "testGroup1",
+      "onPremisesLastSyncDateTime": null,
+      "onPremisesProvisioningErrors": [],
+      "onPremisesSecurityIdentifier": null,
+      "onPremisesSyncEnabled": null,
+      "proxyAddresses": [
+        "SMTP:testGroup1@test.onmicrosoft.com"
+      ],
+      "renewedDateTime": "2017-07-24T19:17:17Z",
+      "securityEnabled": false,
+      "visibility": "Public"
+    }
+  ]
+}
