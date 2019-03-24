@@ -19,9 +19,9 @@ import static com.google.common.base.Preconditions.checkNotNull;
 import static java.nio.charset.StandardCharsets.UTF_8;
 
 import com.google.api.client.json.GenericJson;
-import com.google.api.services.cloudidentity.v1beta1.model.EntityKey;
-import com.google.api.services.cloudidentity.v1beta1.model.Membership;
-import com.google.api.services.cloudidentity.v1beta1.model.MembershipRole;
+import com.google.api.services.cloudidentity.v1.model.EntityKey;
+import com.google.api.services.cloudidentity.v1.model.Membership;
+import com.google.api.services.cloudidentity.v1.model.MembershipRole;
 import com.google.common.base.Function;
 import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableList;
@@ -223,7 +223,7 @@ class O365IdentityRepository implements Repository {
                     input.isUser()
                         ? new EntityKey().setId(input.getMail())
                         : repositoryContext.buildEntityKeyForGroup(input.getId());
-                return new Membership().setMemberKey(memberKey).setRoles(MEMBER_ROLES);
+                return new Membership().setPreferredMemberKey(memberKey).setRoles(MEMBER_ROLES);
               }
             });
     return repositoryContext.buildIdentityGroup(

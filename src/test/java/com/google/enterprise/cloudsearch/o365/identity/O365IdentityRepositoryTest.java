@@ -26,8 +26,8 @@ import static org.mockito.Mockito.doAnswer;
 import static org.mockito.Mockito.spy;
 import static org.mockito.Mockito.when;
 
-import com.google.api.services.cloudidentity.v1beta1.model.EntityKey;
-import com.google.api.services.cloudidentity.v1beta1.model.Membership;
+import com.google.api.services.cloudidentity.v1.model.EntityKey;
+import com.google.api.services.cloudidentity.v1.model.Membership;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSet;
 import com.google.enterprise.cloudsearch.o365.ApiConnection;
@@ -296,7 +296,7 @@ public class O365IdentityRepositoryTest {
             .build();
     Membership userMembership =
         new Membership()
-            .setMemberKey(new EntityKey().setId("user1@googledomain.com"))
+            .setPreferredMemberKey(new EntityKey().setId("user1@googledomain.com"))
             .setRoles(O365IdentityRepository.MEMBER_ROLES);
 
     Member memberGroup =
@@ -305,7 +305,7 @@ public class O365IdentityRepositoryTest {
     when(repositoryContext.buildEntityKeyForGroup("o365Group2")).thenReturn(groupMemberKey);
     Membership groupMembership =
         new Membership()
-            .setMemberKey(groupMemberKey)
+            .setPreferredMemberKey(groupMemberKey)
             .setRoles(O365IdentityRepository.MEMBER_ROLES);
 
     doAnswer(
@@ -379,7 +379,7 @@ public class O365IdentityRepositoryTest {
             .build();
     Membership userMembership =
         new Membership()
-            .setMemberKey(new EntityKey().setId("user1@googledomain.com"))
+            .setPreferredMemberKey(new EntityKey().setId("user1@googledomain.com"))
             .setRoles(O365IdentityRepository.MEMBER_ROLES);
 
     Member memberGroup =
@@ -387,7 +387,9 @@ public class O365IdentityRepositoryTest {
     EntityKey groupMemberKey = new EntityKey().setId("o365Group2").setNamespace("ns");
     when(repositoryContext.buildEntityKeyForGroup("o365Group2")).thenReturn(groupMemberKey);
     Membership groupMembership =
-        new Membership().setMemberKey(groupMemberKey).setRoles(O365IdentityRepository.MEMBER_ROLES);
+        new Membership()
+            .setPreferredMemberKey(groupMemberKey)
+            .setRoles(O365IdentityRepository.MEMBER_ROLES);
 
     doAnswer(
             invocation ->
@@ -466,7 +468,7 @@ public class O365IdentityRepositoryTest {
             .build();
     Membership userMembership =
         new Membership()
-            .setMemberKey(new EntityKey().setId("user1@googledomain.com"))
+            .setPreferredMemberKey(new EntityKey().setId("user1@googledomain.com"))
             .setRoles(O365IdentityRepository.MEMBER_ROLES);
 
     Member memberGroup =
@@ -474,7 +476,9 @@ public class O365IdentityRepositoryTest {
     EntityKey groupMemberKey = new EntityKey().setId("o365Group2").setNamespace("ns");
     when(repositoryContext.buildEntityKeyForGroup("o365Group2")).thenReturn(groupMemberKey);
     Membership groupMembership =
-        new Membership().setMemberKey(groupMemberKey).setRoles(O365IdentityRepository.MEMBER_ROLES);
+        new Membership()
+            .setPreferredMemberKey(groupMemberKey)
+            .setRoles(O365IdentityRepository.MEMBER_ROLES);
 
     doAnswer(
             invocation ->
