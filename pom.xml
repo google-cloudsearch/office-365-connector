@@ -4,7 +4,7 @@
 
   <groupId>com.google.enterprise.cloudsearch</groupId>
   <artifactId>google-cloudsearch-office-365-connector</artifactId>
-  <version>v1-0.0.5</version>
+  <version>v1-0.0.6-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>Google Cloud Search Office 365 Identity Connector</name>
   <url>https://cloud.google.com/products/search</url>
@@ -189,12 +189,12 @@
     <dependency>
       <groupId>com.google.enterprise.cloudsearch</groupId>
       <artifactId>google-cloudsearch-indexing-connector-sdk</artifactId>
-      <version>v1-0.0.5</version>
+      <version>v1-0.0.6-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.google.enterprise.cloudsearch</groupId>
       <artifactId>google-cloudsearch-identity-connector-sdk</artifactId>
-      <version>v1-0.0.5</version>
+      <version>v1-0.0.6-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.mockito</groupId>
